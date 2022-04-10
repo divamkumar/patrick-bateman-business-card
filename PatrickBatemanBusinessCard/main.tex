@@ -1,0 +1,29 @@
+\documentclass[9pt,a4paper]{memoir}
+
+\usepackage{xcolor}
+
+% US Stock size
+\setstocksize{2in}{3.5in}
+\setpagecc{2in}{3.5in}{*}
+\settypeblocksize{1.75in}{3.25in}{*}
+\setulmargins{5mm}{*}{*}
+\setlrmargins{3mm}{*}{*}
+
+\setheadfoot{0.1pt}{0.1pt}
+\setheaderspaces{1pt}{*}{*}
+
+\usepackage{fontspec}
+\setmainfont{Garamond Classico SC Regular.ttf} 
+
+\checkandfixthelayout[fixed]
+
+\pagestyle{empty}
+
+
+\begin{document}
+\input{PatrickBatemanBusinessCard/Components/phoneNumber}
+\input{PatrickBatemanBusinessCard/Components/company}
+\input{PatrickBatemanBusinessCard/Components/name}
+\input{PatrickBatemanBusinessCard/Components/jobTitle}
+\input{PatrickBatemanBusinessCard/Components/companyAddressAndContact}
+\end{document}
